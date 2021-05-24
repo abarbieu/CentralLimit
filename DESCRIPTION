@@ -1,0 +1,19 @@
+Package: CentralLimit
+Title: Provides functions to test the Central Limit Theorem
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aidan",
+           family = "Barbieux",
+           role = c("aut", "cre"),
+           email = "barbieuxaidan@gmail.com")
+Description: This is a practice package for coursework.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    purrr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
